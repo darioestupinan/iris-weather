@@ -19,7 +19,6 @@
   "homepage": "https://github.com/darioestupinan/iris-weather#readme",
   "dependencies": {
     "express": "^4.16.3",
-    "moment": "^2.22.2",
     "superagent": "^3.8.3"
   }
 }

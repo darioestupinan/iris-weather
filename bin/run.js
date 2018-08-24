@@ -11,7 +11,7 @@ server.on('listening', () => {
     console.log(`Iris Weather is listening on port ${server.address().port} in ${service.get('env')} mode.`);
 
     const announce = () => {
-        const endpoint = `http://127.0.0.1:3000/service/time/${server.address().port}`;
+        const endpoint = `http://127.0.0.1:3000/service/weather/${server.address().port}`;
         request.put(endpoint, (err,res) => {
             if (err){
                 console.log(err);
