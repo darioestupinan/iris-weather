@@ -1,0 +1,25 @@
+{
+  "name": "iris-weather",
+  "version": "1.0.0",
+  "description": "iris time microservice",
+  "main": "server/service.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node ./bin/run.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/darioestupinan/iris-weather.git"
+  },
+  "author": "dar1o",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/darioestupinan/iris-weather/issues"
+  },
+  "homepage": "https://github.com/darioestupinan/iris-weather#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "moment": "^2.22.2",
+    "superagent": "^3.8.3"
+  }
+}
